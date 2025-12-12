@@ -1,0 +1,17 @@
+.navbar {
+  padding: 20px 0px;
+  background-color: red;
+}
+
+.footer {
+  padding: 15px 0px;
+  background-color: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=istalgan.css.map */
