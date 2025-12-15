@@ -1,0 +1,24 @@
+.comments {
+  padding: 30px 0px;
+  background-color: red;
+}
+.comments .container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.comments_top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */
