@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.container{
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hero{
+    width: 100%;
+}
+
+.hero {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .hero_image{
+            width: 50%;
+
+            img{
+              width: 100%;
+            }
+        }
+
+        .hero_content{
+            width: 50%;
+            
+            h1{
+                font-size: 66px;
+                color: black;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+
+            p{
+                font-size: 22px;
+                color: #767676;
+                margin-bottom: 30px;
+            }
+
+            button{
+                padding: 15px 30px;
+                border: none;
+                border-radius: 10px;
+                background-color: #5925DC;
+                color: white;
+                margin-bottom: 30px;
+            }
+
+            ul{
+                list-style: none;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 30px;
+
+                li{
+                    width: 22%;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+}
